@@ -29,9 +29,6 @@ Azure Synapse Analytics (External Tables via CETAS)
 v
 Power BI Dashboards
 
-markdown
-Copy
-Edit
 
 ---
 
@@ -93,31 +90,6 @@ Edit
 - Real-time tracking of logistics and fulfillment
 - Customer review and sentiment integration
 
----
-
-## Folder Structure
-
-/azure-data-pipeline-ecommerce/
-│
-├── /notebooks/ # PySpark notebooks (Databricks)
-├── /pipelines/ # JSON or screenshots of ADF pipelines
-├── /datasets/ # Sample input/output data
-├── /docs/ # Architecture diagrams, flowcharts
-└── README.md
-
-## Project Structure
-
-├── notebooks/
-│   ├── 01_data_cleaning.py
-│   ├── 02_data_enrichment.py
-│   ├── 03_data_aggregation.py
-├── adf_pipeline_templates/
-│   ├── adf_ingestion_pipeline.json
-│   ├── adf_parameterized_pipeline.json
-├── synapse_sql/
-│   ├── create_external_table.sql
-│   ├── gold_layer_queries.sql
-├── README.md
 
 ## Tech Stack: Azure | PySpark | Synapse | Power BI | MongoDB | SQL
 
